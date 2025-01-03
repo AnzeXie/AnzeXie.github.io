@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Anze Xie / 谢安泽"
+title                    : "Anze Xie"
 title_separator          : "-"
 name                     : &name "Anze Xie"
 description              : &description "Research Assistant at UC San Diego"
@@ -21,10 +21,10 @@ repository               : "AnzeXie/AnzeXie.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "anze.jpg"
   name             : "Anze Xie"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Research Assistant at UC San Diego"
   location         : "San Diego, CA"
   # employer         : "Red Brick University"
   uri              : # URL
@@ -32,7 +32,7 @@ author:
 
   # Academic websites
   # arxiv            : # URL - Update with the correct link to your profile
-  # googlescholar    : ""
+  googlescholar    : "https://scholar.google.com/citations?user=w7Ey2wEAAAAJ&hl=en"
   impactstory      : # URL
   # orcid            : "http://orcid.org/yourorcidurl"
   semantic         : # URL
@@ -75,13 +75,13 @@ author:
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+# publication_category:
+#   books:
+#     title: 'Books'
+#   manuscripts:
+#     title: 'Journal Articles'    
+#   conferences:
+#     title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
