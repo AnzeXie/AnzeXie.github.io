@@ -1,18 +1,96 @@
 ---
 layout: archive
-title: "Publications"
+title: "Seleted Publications"
 permalink: /publications/
 author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">You can find a full list of my publications on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
+<!-- ### pub 1 ###
+[alt text](/images/3953273590_704e3899d5_m.jpg)  jalkdsfj jfdas -->
+
+<script src="./utils.js"></script>
+
+
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+  <tr>
+    <td width="30%" id="game_arena-img"></td>
+    <td valign="top" width="70%" id="game_arena-txt"></td>
+  </tr>
+
+  <script type="text/javascript">
+    createProjectElement(
+                id = "game_arena", {
+                title: "GameArena: Evaluating LLM Reasoning through Live Computer Games",
+                paper_url: "https://arxiv.org/pdf/2412.06394",
+                authors: "Lanxiang Hu*, Qiyu Li*, <b>Anze Xie*</b>, Nan Jiang, Ion Stoica, Haojian Jin, Hao Zhang",
+                conference: "in submission to ICLR 2025",
+                image: "/images/game_arena.jpg",
+                others: null
+              });
+  </script>
+
+  <tr>
+    <td width="30%" id="distflashattn-img"></td>
+    <td valign="top" width="70%" id="distflashattn-txt"></td>
+  </tr>
+
+  <script type="text/javascript">
+    createProjectElement(
+                id = "distflashattn", {
+                title: "DISTFLASHATTN: Distributed Memory-efficient Attention for Long-context LLMs Training",
+                paper_url: "https://arxiv.org/pdf/2310.03294",
+                authors: "Dacheng Li*, Rulin Shao*, <b>Anze Xie</b>, Eric P. Xing, Xuezhe Ma, Ion Stoica, Joseph E. Gonzalez, Hao Zhang",
+                conference: "COLM 2024",
+                image: "/images/distflashattn.jpg",
+                others: null
+              });
+  </script>
+
+<tr>
+  <td width="30%" id="howlong-img"></td>
+  <td valign="top" width="70%" id="howlong-txt"></td>
+</tr>
+
+<script type="text/javascript">
+  createProjectElement(
+              id = "howlong", {
+              title: "How Long Can Open-Source LLMs Truly Promise on Context Length?",
+              paper_url: "https://lmsys.org/blog/2023-06-29-longchat/",
+              authors: "Dacheng Li*, Rulin Shao*, <b>Anze Xie</b>, Ying Sheng, Lianmin Zheng, Joseph Gonzalez, Ion Stoica, Xuezhe Ma, Hao Zhang",
+              conference: "Instruction workshop @ NeurIPS 2023",
+              image: "/images/howlong.jpg",
+              others: null
+            });
+</script>
+
+<tr>
+  <td width="30%" id="marius-img"></td>
+  <td valign="top" width="70%" id="marius-txt"></td>
+</tr>
+
+<script type="text/javascript">
+  createProjectElement(
+              id = "marius", {
+              title: "Demo of Marius: A System for Large-scale Graph Embeddings",
+              paper_url: "https://vldb.org/pvldb/vol14/p2759-mohoney.pdf",
+              authors: "<b>Anze Xie*</b>, Anders Carlsson, Jason Mohoney, Roger Waleffe, Shanan Peters, Theodoros Rekatsinas, Shivaram Venkataraman",
+              conference: "VLDB 2021",
+              image: "/images/marius.jpg",
+              others: null
+            });
+</script>
+</table>
+
+
 <!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
+<!-- {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
@@ -30,7 +108,7 @@ author_profile: true
   {% for post in site.publications reversed %}
     {% include archive-single.html %}
   {% endfor %}
-{% endif %}
+{% endif %} -->
 
 
 
